@@ -6,3 +6,4 @@
     - All students failing at one or more disciplines (students having an average <5 for a discipline are failing it)
     - Students with the best school situation, sorted in descending order of their aggregated average (the average between their average grades per discipline)
     - All disciplines at which there is at least one grade, sorted in descending order of the average grade(s) received by all students
+- **PyUnit test cases** for all non-UI classes and methods for the first functionality
