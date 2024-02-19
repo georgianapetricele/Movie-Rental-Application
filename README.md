@@ -1,11 +1,11 @@
 # Functionalities
-- Manage students and disciplines. The user can add, remove, update, and list both students and disciplines.
-- Grade students at a given discipline. Any student may receive one or several grades at any discipline. Deleting a student also removes their grades. Deleting a discipline deletes all grades at that discipline for all students.
-- Search for disciplines/students based on ID or name/title. The search must work using case-insensitive, partial string matching, and must return all matching disciplines/students.
+- Manage clients and movies. The user can add, remove, update, and list both clients and movies.
+- Rent or return a movie. A client can rent a movie until a given date, as long as they have no rented movies that passed their due date for return. A client can return a rented movie at any time.
+- Search for clients or movies using any one of their fields (e.g. movies can be searched for using id, title, description or genre). The search must work using case-insensitive, partial string matching, and must return all matching items.
 - Create statistics:
-    - All students failing at one or more disciplines (students having an average <5 for a discipline are failing it)
-    - Students with the best school situation, sorted in descending order of their aggregated average (the average between their average grades per discipline)
-    - All disciplines at which there is at least one grade, sorted in descending order of the average grade(s) received by all students
+  - Most rented movies. This will provide the list of movies, sorted in descending order of the number of days they were rented.
+  - Most active clients. This will provide the list of clients, sorted in descending order of the number of movie rental days they have (e.g. having 2 rented movies for 3 days each counts as 2 x 3 = 6 days).
+  - Late rentals. All the movies that are currently rented, for which the due date for return has passed, sorted in descending order of the number of days of delay.
 - **PyUnit test cases** for all non-UI classes and methods for the first functionality
 
 # Demo
