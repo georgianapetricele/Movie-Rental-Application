@@ -9,4 +9,4 @@
 - **PyUnit test cases** for all non-UI classes and methods for the first functionality
 
 # Demo
-![image](https://github.com/georgianapetricele/Movie-Rental-Application/assets/115110913/ab6bce1d-f2c5-4ec2-98dd-7126651fcbf3)
+![image](https://github.com/georgianapetricele/Movie-Rental-Application/assets/115110913/6002ba69-2ad4-4526-83ee-001363998c7d)
